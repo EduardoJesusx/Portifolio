@@ -1,0 +1,44 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  color: white;
+  margin: 15vh auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container img{
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  border: 3px solid #343434;
+  margin-bottom: 20px;
+}
+
+body{
+  font-family: "Source Sans Pro";
+  background: rgb(39, 39, 39);
+}
+h2,h1,p{
+  margin-top:6px
+}
+.links {
+  margin-top:20px;
+  display: flex;
+  width: 200px;
+  justify-content: space-evenly;
+}
+.links a{
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 2px solid white;
+  transition: 0.2s;
+}
+a:hover{
+  padding-bottom: 5px;
+}
